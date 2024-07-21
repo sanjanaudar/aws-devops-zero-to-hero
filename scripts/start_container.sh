@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker push sanjanaudar/simple-python-flask-app
+docker pull sanjanaudar/simple-python-flask-app
 
 #trying build artifact config in CodePipeline and added s3 access to codeBuild
 
