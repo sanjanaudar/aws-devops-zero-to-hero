@@ -3,7 +3,7 @@ set -e
 
 # Pull the Docker image from Docker Hub
 docker pull sanjanaudar/simple-python-flask-app
-echo "Testing code deploy"
+echo "Testing code deploy again"
 
 # Run the Docker image as a container
 docker run -d -p 5000:5000 sanjanaudar/simple-python-flask-app
